@@ -11,6 +11,19 @@ namespace W3SchoolsTutorial //namespaces keep code organized and hold other name
 
             Console.Write("Hello Again, World!");
             Console.Write("This is the Write method and will print on the same line");
+
+            string hello = "Hello World, I am a variable";
+            Console.WriteLine(hello);
+
+            hello = "I changed my mind about this variable";
+            Console.WriteLine(hello);
+
+            const int cantChangeThis = 100;
+            Console.WriteLine(cantChangeThis);
+
+            //THE CODE BELOW WILL THROW AN ERROR BECAUSE WE MADE THE VARIABLE WE ARE TRYING TO ASSIGN HERE A CONSTANT
+            //cantChangeThis = 200;
+            //Console.WriteLine(cantChangeThis);
         }
     }
 }
